@@ -364,3 +364,6 @@ $ ^C
 vitor@V▒tor MINGW64 ~/Avalia-o-github/Avalia-o-github (main)
 $ vitor@V▒tor MINGW64 ~
 $ git pushcom:lucas-ryuichi/Avalia-o-github.git
+
+## Observações:
+Fizemos mais de um git clone, houve alguns pequenos erros da ordem dos commits, e também do git pull, contudo foi corrigido e tudo foi feito conforme as instruções
