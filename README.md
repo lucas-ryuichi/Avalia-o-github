@@ -99,4 +99,109 @@ $ git config --global user.email "lucasrochanilo@gmail.com"
 
   }
     }
+
+
+  ## Comandos utilizados
+Todos os comandos foram executados via terminal utilizando chave SSH:
+### Comandos de Lucas Ryuiti:
+compuni@maker26 MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 791
+
+compuni@maker26 MINGW64 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/compuni/.ssh/id_rsa (ryuitilucas9@gmail.com)
+
+compuni@maker26 MINGW64 ~
+$ clip < ~/.ssh/id_rsa.pub
+
+compuni@maker26 MINGW64 ~
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+compuni@maker26 MINGW64 ~
+$ ssh -T git@github.com
+git@github.com: Permission denied (publickey).
+
+compuni@maker26 MINGW64 ~
+$ clip < ~/.ssh/id_rsa.pub
+
+compuni@maker26 MINGW64 ~
+$ ssh -T git@github.com
+Hi lucas-ryuichi! You've successfully authenticated, but GitHub does not provide shell access.
+
+compuni@maker26 MINGW64 ~
+$ git clone git@github.com:lucas-ryuichi/Avalia-o-github.git
+Cloning into 'Avalia-o-github'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+compuni@maker26 MINGW64 ~
+$ cd repositorio
+bash: cd: repositorio: No such file or directory
+
+compuni@maker26 MINGW64 ~
+$ cd ~/Desktop
+
+compuni@maker26 MINGW64 ~/Desktop
+$ cd Avalia-o-github
+bash: cd: Avalia-o-github: No such file or directory
+
+compuni@maker26 MINGW64 ~/Desktop
+$ cd repositorio
+bash: cd: repositorio: No such file or directory
+
+compuni@maker26 MINGW64 ~/Desktop
+$ cd Avalia o github
+bash: cd: too many arguments
+
+compuni@maker26 MINGW64 ~/Desktop
+$ cd Avalia-o-github
+bash: cd: Avalia-o-github: No such file or directory
+
+compuni@maker26 MINGW64 ~/Desktop
+$ git clone git@github.com:lucas-ryuichi/Avalia-o-github.git
+Cloning into 'Avalia-o-github'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+compuni@maker26 MINGW64 ~/Desktop
+$ cd Avalia-o-github
+
+compuni@maker26 MINGW64 ~/Desktop/Avalia-o-github (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+compuni@maker26 MINGW64 ~/Desktop/Avalia-o-github (main)
+$ git add .
+
+compuni@maker26 MINGW64 ~/Desktop/Avalia-o-github (main)
+$ git commit -m "Primeira parte do código"
+[main 760e7bb] Primeira parte do código
+ 1 file changed, 20 insertions(+), 1 deletion(-)
+
+compuni@maker26 MINGW64 ~/Desktop/Avalia-o-github (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 446 bytes | 446.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:lucas-ryuichi/Avalia-o-github.git
+   00bfbf8..760e7bb  main -> main
+
+compuni@maker26 MINGW64 ~/Desktop/Avalia-o-github (main)
+$
+
+
   
