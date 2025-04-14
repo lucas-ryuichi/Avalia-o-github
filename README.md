@@ -56,5 +56,31 @@ $ git config --global user.email "ryuitilucas9@gmail.com"
       se (n1>=7 e n1<=8.9)
     escreva("Bom - nota B")
 
+### Lucas da Silva Rocha
+- Como Configurou o Git:
+  
+compuni@maker313 MINGW64 ~
+$ git config --global user.name
 
+compuni@maker313 MINGW64 ~
+$ git config --global --unset user.name
+
+compuni@maker313 MINGW64 ~
+$ git config --global --unset user.email
+
+compuni@maker313 MINGW64 ~
+$ rm -f ~/.ssh/id_rsa*
+
+compuni@maker313 MINGW64 ~
+$ git config --global user.name "Masterlu22"
+
+compuni@maker313 MINGW64 ~
+$ git config --global user.email "lucasrochanilo@gmail.com"
+
+- Fez `git pull` após o commit de:
+   Lucas Ryuiti.
+  
+- Adicionou lógica de
+    senao se( n1 >= 5 e n1 <= 6.9){
+    	escreva(" Regular - nota C")
 
