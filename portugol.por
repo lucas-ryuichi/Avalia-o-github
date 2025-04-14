@@ -1,5 +1,4 @@
-programa {
-  funcao inicio() {
+
     programa {
   funcao inicio() {
     real n1
@@ -19,6 +18,21 @@ programa {
     } senao {
       se (n1>=7 e n1<=8.9)
     escreva("Bom - nota B")
+    senao se( n1 >= 5 e n1 <= 6.9){
+    	escreva(" Regular - nota C")
+    }
 
   }
 }
+    }
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 308; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
