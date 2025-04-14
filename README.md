@@ -200,6 +200,92 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:lucas-ryuichi/Avalia-o-github.git
    00bfbf8..760e7bb  main -> main
 
+   ## Comandos de Lucas da Silva Rocha:
+    compuni@maker313 MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 569
+
+compuni@maker313 MINGW64 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/compuni/.ssh/id_rsa (lucasrochanilo@gmail.com)
+
+compuni@maker313 MINGW64 ~
+$ clip < ~/.ssh/id_rsa.pub
+
+compuni@maker313 MINGW64 ~
+$ ssh -T git@github.com
+Hi Masterlu22! You've successfully authenticated, but GitHub does not provide shell access.
+
+compuni@maker313 MINGW64 ~
+$  git clone git@github.com:lucas-ryuichi/Avalia-o-github.git
+Cloning into 'Avalia-o-github'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+compuni@maker313 MINGW64 ~
+$ cd ~/Desktop
+
+compuni@maker313 MINGW64 ~/Desktop
+$ cd Avalia-o-github
+bash: cd: Avalia-o-github: No such file or directory
+
+compuni@maker313 MINGW64 ~/Desktop
+$ cd Avalia-o-github
+bash: cd: Avalia-o-github: No such file or directory
+
+compuni@maker313 MINGW64 ~/Desktop
+$ cd Avalia-o-github
+bash: cd: Avalia-o-github: No such file or directory
+
+compuni@maker313 MINGW64 ~/Desktop
+$ git clone git@github.com:lucas-ryuichi/Avalia-o-github.git
+Cloning into 'Avalia-o-github'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (9/9), done.
+
+compuni@maker313 MINGW64 ~/Desktop
+$ cd Avalia-o-github
+
+compuni@maker313 MINGW64 ~/Desktop/Avalia-o-github (main)
+$ git pull
+Already up to date.
+
+compuni@maker313 MINGW64 ~/Desktop/Avalia-o-github (main)
+$ git add .
+warning: LF will be replaced by CRLF in portugol.por.
+The file will have its original line endings in your working directory
+
+compuni@maker313 MINGW64 ~/Desktop/Avalia-o-github (main)
+$ git push
+Everything up-to-date
+
+compuni@maker313 MINGW64 ~/Desktop/Avalia-o-github (main)
+$ git commit -m "Descrição da alteração"
+[main 570f31c] Descrição da alteração
+ 1 file changed, 16 insertions(+), 2 deletions(-)
+
+compuni@maker313 MINGW64 ~/Desktop/Avalia-o-github (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 728 bytes | 728.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:lucas-ryuichi/Avalia-o-github.git
+   760e7bb..570f31c  main -> main
+
+compuni@maker313 MINGW64 ~/Desktop/Avalia-o-github (main)
+$
+
+   
+
 compuni@maker26 MINGW64 ~/Desktop/Avalia-o-github (main)
 $
 
