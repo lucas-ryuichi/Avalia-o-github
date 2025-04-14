@@ -291,3 +291,76 @@ $
 
 
   
+### Comandos Vitor Sence Botelho Manhas
+
+vitor@V▒tor MINGW64 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 1838
+
+vitor@V▒tor MINGW64 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/vitor/.ssh/id_rsa (vitor.manhas@edu.unifil.br)
+
+vitor@V▒tor MINGW64 ~
+$ clip < ~/.ssh/id_rsa.pub
+
+vitor@V▒tor MINGW64 ~
+$ ssh -T git@github.com
+Hi vitorsence! You've successfully authenticated, but GitHub does not provide shell access.
+
+vitor@V▒tor MINGW64 ~
+$ git pull
+fatal: not a git repository (or any of the parent directories): .git
+
+vitor@V▒tor MINGW64 ~
+$ git clone git@github.com:lucas-ryuichi/Avalia-o-github.git
+Cloning into 'Avalia-o-github'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (9/9), done.
+
+vitor@V▒tor MINGW64 ~
+$ cd Avalia-o-github
+
+vitor@V▒tor MINGW64 ~/Avalia-o-github (main)
+$ git clone git@github.com:lucas-ryuichi/Avalia-o-github.git
+Cloning into 'Avalia-o-github'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (10/10), done.
+Receiving objects: 100% (12/12), done.
+Resolving deltas: 100% (1/1), done.
+remote: Total 12 (delta 1), reused 5 (delta 0), pack-reused 0 (from 0)
+
+vitor@V▒tor MINGW64 ~/Avalia-o-github (main)
+$ cd Avalia-o-github
+
+vitor@V▒tor MINGW64 ~/Avalia-o-github/Avalia-o-github (main)
+$ git add .
+warning: in the working copy of 'portugol.por', LF will be replaced by CRLF the next time Git touches it
+
+vitor@V▒tor MINGW64 ~/Avalia-o-github/Avalia-o-github (main)
+$ git commit -m "Terceira parte do código"
+[main b63a7d6] Terceira parte do código
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+
+vitor@V▒tor MINGW64 ~/Avalia-o-github/Avalia-o-github (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 450 bytes | 450.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:lucas-ryuichi/Avalia-o-github.git
+   570f31c..b63a7d6  main -> main
+
+vitor@V▒tor MINGW64 ~/Avalia-o-github/Avalia-o-github (main)
+$ ^C
+
+vitor@V▒tor MINGW64 ~/Avalia-o-github/Avalia-o-github (main)
+$ vitor@V▒tor MINGW64 ~
+$ git pushcom:lucas-ryuichi/Avalia-o-github.git
