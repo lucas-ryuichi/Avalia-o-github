@@ -84,3 +84,19 @@ $ git config --global user.email "lucasrochanilo@gmail.com"
     senao se( n1 >= 5 e n1 <= 6.9){
     	escreva(" Regular - nota C")
 
+### Vitor Sence Botelho Manhas
+- Como Configurou o Git? não deixe exposto sua chave.
+- Meu gitBash ja está configurado pois estou usando o meu computador pessoal.
+- Fez `git pull` após o commit de Lucas da Silva.
+- Finalizou o algoritmo com lógica . . .
+- senao
+    	se (n1>=3 e n1<=4.9)
+    	escreva("Insuficiente - nota D")
+    	senao
+    	se (n1>=0 e n1<=2.9)
+    	escreva("Reprovado - nota E")
+    }
+
+  }
+    }
+  
